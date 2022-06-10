@@ -40,7 +40,7 @@ function fazerPergunta() {
   // sumir a resposta depois de 3 segundos
 
   setTimeout(function() {
-    inputPergunta.value = "";
+    // inputPergunta.value = "";
     resposta.style.opacity = 0;
   }, 3000);
 
